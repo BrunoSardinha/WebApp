@@ -1,0 +1,44 @@
+body{
+background-color: lightgreen;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+form{
+    width: 70%;
+}
+
+#asdfghjkl {
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-style{
+    margin-bottom: 10px;
+    width: 100%;
+    border: solid 0px;
+    background-color: lightgrey;
+    height: 50px;
+    border-radius: 20px;
+}
+
+#asdfghjklç {
+    background-color: teal;
+    margin-top: 60px;
+}
+
+input::placeholder{
+padding-left: 10px;
+}
+
+hr.divider{
+    width: 210px;
+    height: 1px;
+    background-color: seashell;
+    background-color:rgb(17, 201, 201);
+}
